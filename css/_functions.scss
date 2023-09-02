@@ -1,0 +1,4 @@
+@function calculate-margin($percentage, $container-width) {
+  $margin: calc($container-width * $percentage) / 100;
+  @return #{$margin}px;
+}

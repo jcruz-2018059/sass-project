@@ -1,0 +1,16 @@
+@mixin flexible-box-width($width: auto, $min-width: none, $max-width: none) {
+    width: $width;
+    max-width: $max-width;
+    min-width: $min-width;
+}
+
+@mixin flexible-box-height($height: auto, $min-height: none, $max-height: none) {
+    height: $height;
+    max-height: $max-height;
+    min-height: $min-height;
+}
+
+@mixin box-width-height($width: auto, $height: auto){
+    width: $width; 
+    height: $height;
+}
